@@ -133,6 +133,7 @@ VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
 
 # Hidl manifests
 DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
+DEVICE_MATRIX_FILE := device/lenovo/kuntao/compatibility_matrix.xml
 
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
