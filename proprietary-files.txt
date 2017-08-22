@@ -314,9 +314,3 @@ vendor/lib64/sensors.st.so
 
 # USB
 etc/firmware/ice40.bin:vendor/etc/firmware/ice40.bin
-
-# WiFi
-etc/wifi/WCNSS_qcom_cfg.ini:vendor/etc/wifi/WCNSS_qcom_cfg.ini
-etc/wifi/fstman.ini:vendor/etc/wifi/fstman.ini
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin
-etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:vendor/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat

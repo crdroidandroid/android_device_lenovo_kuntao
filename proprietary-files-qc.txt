@@ -468,7 +468,5 @@ vendor/bin/hw/android.hardware.drm@1.0-service.widevine|fd6e14710c196fdd4131afe2
 vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc|51a3168a0dbc064d78ee11ca83614c0cd2e6daa5
 vendor/lib/libwvhidl.so|f7288f7a7ed6765bd1d80d639a0aeb0c31eda795
 
-# WiFi
-bin/cnss-daemon:vendor/bin/cnss-daemon
-bin/cnss_diag:vendor/bin/cnss_diag
-bin/wcnss_service:vendor/bin/wcnss_service
+# WIFI - from tissot 8.1.0 OPM1.171019.026
+vendor/bin/wcnss_service|183c15394d1d6df2e5f6d712df80b2b2aa9f5ea6
