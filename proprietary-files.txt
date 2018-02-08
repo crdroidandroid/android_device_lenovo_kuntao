@@ -83,7 +83,7 @@ vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_isp_linearization40.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_sensor_modules.so|b0ab846e4c8b271e33580b2c43016eec856140e5
 vendor/lib/libmmcamera_isp_demux40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_dw9767_kuntaosy_eeprom.so
