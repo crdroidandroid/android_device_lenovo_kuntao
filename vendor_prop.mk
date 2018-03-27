@@ -48,6 +48,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
     ro.sf.lcd_density=480
+    vendor.display.disable_rotator_downscale=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
