@@ -5,58 +5,23 @@ lib64/hw/audio.primary.msm8953.so:vendor/lib64/hw/audio.primary.msm8953.so
 lib64/libtinycompress.so|020b96b4bc3ad4554e10cbc31d545565a690975f
 vendor/lib/hw/sound_trigger.primary.msm8953.so
 vendor/etc/audio_output_policy.conf
-etc/speaker.ftcfg
-etc/mixer_paths.xml
-etc/mixer_paths_skuk.xml
-etc/a2dp_audio_policy_configuration.xml
-etc/audio_policy_volumes.xml
-etc/capability.xml
-etc/default_volume_tables.xml
-etc/r_submix_audio_policy_configuration.xml
-etc/usb_audio_policy_configuration.xml
-etc/aanc_tuning_mixer.txt
-etc/mixer_paths_qrd_sku3.xml
-etc/mixer_paths_qrd_skuh.xml
-etc/mixer_paths_qrd_skui.xml
-etc/mixer_paths_qrd_skum.xml
-etc/mixer_paths_qrd_skun.xml
-etc/mixer_paths_qrd_skuhf.xml
-etc/sound_trigger_mixer_paths.xml
-etc/audio_policy.conf
-etc/audio_policy_configuration.xml
-etc/audio_platform_info.xml
-etc/audio_platform_info_extcodec.xml
-etc/mixer_paths_wcd9306.xml
-etc/mixer_paths_wcd9326.xml
-etc/mixer_paths_wcd9330.xml
-etc/mixer_paths_wcd9335.xml
-etc/sound_trigger_mixer_paths_wcd9306.xml
-etc/sound_trigger_mixer_paths_wcd9330.xml
-etc/sound_trigger_mixer_paths_wcd9335.xml
-etc/sound_trigger_platform_info.xml
+etc/aanc_tuning_mixer.txt:vendor/etc/aanc_tuning_mixer.txt
+etc/sound_trigger_mixer_paths.xml:vendor/etc/sound_trigger_mixer_paths.xml
+etc/audio_policy.conf:vendor/etc/audio_policy.conf
+etc/audio_policy_configuration.xml:vendor/etc/audio_policy_configuration.xml
+etc/audio_platform_info.xml:vendor/etc/audio_platform_info.xml
+etc/audio_platform_info_extcodec.xml:vendor/etc/audio_platform_info_extcodec.xml
+etc/sound_trigger_platform_info.xml:vendor/etc/sound_trigger_platform_info.xml
+etc/firmware/tas2555_uCDSP.bin:vendor/etc/firmware/tas2555_uCDSP.bin
 
 # Audio ACDB
-etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-etc/acdbdata/MTP/MTP_General_cal.acdb
-etc/acdbdata/MTP/MTP_Global_cal.acdb
-etc/acdbdata/MTP/MTP_Handset_cal.acdb
-etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-etc/acdbdata/MTP/MTP_Headset_cal.acdb
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Bluetooth_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_General_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Global_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Handset_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Hdmi_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Headset_cal.acdb
-etc/acdbdata/MTP_NON_CE/MTP_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-etc/acdbdata/QRD/QRD_General_cal.acdb
-etc/acdbdata/QRD/QRD_Global_cal.acdb
-etc/acdbdata/QRD/QRD_Handset_cal.acdb
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-etc/acdbdata/QRD/QRD_Headset_cal.acdb
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
+etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
 # Camera
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
@@ -181,17 +146,17 @@ vendor/lib64/libmmsw_detail_enhancement.so
 vendor/lib64/libmmsw_math.so
 vendor/lib64/libmmsw_opencl.so
 vendor/lib64/libmmsw_platform.so
-etc/camera/lenovo_kuntao_camera.xml
+etc/camera/lenovo_kuntao_camera.xml:vendor/etc/camera/lenovo_kuntao_camera.xml
 
 # Camera actuators
 vendor/lib/libactuator_dw9767_kuntaoof.so
 vendor/lib/libactuator_dw9767_kuntaosy.so
 
 # Chromatix
-etc/camera/imx258_kuntaoof_chromatix.xml
-etc/camera/imx258_kuntaosy_chromatix.xml
-etc/camera/ov5695_kuntaoof_chromatix.xml
-etc/camera/ov5695_kuntaosy_chromatix.xml
+etc/camera/imx258_kuntaoof_chromatix.xml:vendor/etc/camera/imx258_kuntaoof_chromatix.xml
+etc/camera/imx258_kuntaosy_chromatix.xml:vendor/etc/camera/imx258_kuntaosy_chromatix.xml
+etc/camera/ov5695_kuntaoof_chromatix.xml:vendor/etc/camera/ov5695_kuntaoof_chromatix.xml
+etc/camera/ov5695_kuntaosy_chromatix.xml:vendor/etc/camera/ov5695_kuntaosy_chromatix.xml
 vendor/lib/libchromatix_imx258_kuntaoof_default_video.so
 vendor/lib/libchromatix_imx258_kuntaosy_postproc.so
 vendor/lib/libchromatix_ov5695_kuntaoof_cpp_liveshot.so
@@ -281,18 +246,18 @@ vendor/lib/libchromatix_imx258_kuntaoof_preview.so
 vendor/lib/libchromatix_imx258_kuntaoof_video_4k.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_5_2.fw
-etc/firmware/cpp_firmware_v1_6_0.fw
-etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw
+etc/firmware/cpp_firmware_v1_5_2.fw:vendor/etc/firmware/cpp_firmware_v1_5_2.fw
+etc/firmware/cpp_firmware_v1_6_0.fw:vendor/etc/firmware/cpp_firmware_v1_6_0.fw
+etc/firmware/cpp_firmware_v1_5_0.fw:vendor/etc/firmware/cpp_firmware_v1_5_0.fw
+etc/firmware/cpp_firmware_v1_1_1.fw:vendor/etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_8_0.fw:vendor/etc/firmware/cpp_firmware_v1_8_0.fw
+etc/firmware/cpp_firmware_v1_10_0.fw:vendor/etc/firmware/cpp_firmware_v1_10_0.fw
+etc/firmware/cpp_firmware_v1_1_6.fw:vendor/etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw:vendor/etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_4_0.fw:vendor/etc/firmware/cpp_firmware_v1_4_0.fw
 
 # EMMC
-etc/firmware/emmc_ffu_15_RX14MB.fw
+etc/firmware/emmc_ffu_15_RX14MB.fw:vendor/etc/firmware/emmc_ffu_15_RX14MB.fw
 
 # Fastcharger
 bin/smart_charger:vendor/bin/smart_charger
@@ -302,55 +267,58 @@ bin/vfmAPITest:vendor/bin/vfmAPITest
 bin/vfmService:vendor/bin/vfmService
 bin/vfmExTest:vendor/bin/vfmExTest
 bin/synaFpTestHalTest:vendor/bin/synaFpTestHalTest
-lib/libvcsfp.so
-lib/libsynaFpTestHal.so
-lib/libvfmClient.so
-lib/libvfmtztransport.so
-lib/libvalAuth.so
-lib64/libvcsfp.so
-lib64/libsynaFpTestHal.so
+lib/libvcsfp.so:vendor/lib/libvcsfp.so
+lib/libsynaFpTestHal.so:vendor/lib/libsynaFpTestHal.so
+lib/libvfmClient.so:vendor/lib/libvfmClient.so
+lib/libvfmtztransport.so:vendor/lib/libvfmtztransport.so
+lib/libvalAuth.so:vendor/lib/libvalAuth.so
+lib64/libvcsfp.so:vendor/lib64/libvcsfp.so
+lib64/libsynaFpTestHal.so:vendor/lib64/libsynaFpTestHal.so
 lib64/hw/fingerprint.default.so:lib64/hw/fingerprint.vendor.msm8953.so
-lib64/libvfmClient.so
-lib64/libvfmtztransport.so
-lib64/libvalAuth.so
-lib64/libvfmAuth.so
-etc/firmware/synaptics-s3508-16060806-kuntao.tdat
-etc/firmware/synaptics-s3508-16062306-kuntao.tdat
-etc/firmware/synaptics-s3508-16071507-kuntao.tdat
-etc/firmware/synaptics-s3508-16080201-kuntao.tdat
-etc/firmware/synaptics-s3508-16081202-kuntao.tdat
-etc/firmware/synaptics-s3508-16082202-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat
-etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat
+lib64/libvalAuth.so:vendor/lib64/libvalAuth.so
+lib64/libvcsfp.so:vendor/lib64/libvcsfp.so
+lib64/libvfmAuth.so:vendor/lib64/libvfmAuth.so
+lib64/libvfmClient.so:vendor/lib64/libvfmClient.so
+lib64/libvfmtztransport.so:vendor/lib64/libvfmtztransport.so
+lib64/libvalAuth.so:vendor/lib64/libvalAuth.so
+lib64/libvfmAuth.so:vendor/lib64/libvfmAuth.so
+etc/firmware/synaptics-s3508-16060806-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16060806-kuntao.tdat
+etc/firmware/synaptics-s3508-16062306-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16062306-kuntao.tdat
+etc/firmware/synaptics-s3508-16071507-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16071507-kuntao.tdat
+etc/firmware/synaptics-s3508-16080201-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16080201-kuntao.tdat
+etc/firmware/synaptics-s3508-16081202-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16081202-kuntao.tdat
+etc/firmware/synaptics-s3508-16082202-kuntao.tdat:vendor/etc/firmware/synaptics-s3508-16082202-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16060806-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16062306-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16071507-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16080201-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat
+etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat
 
 # Graphics firmware
-etc/firmware/a225p5_pm4.fw
-etc/firmware/a225_pfp.fw
-etc/firmware/a225_pm4.fw
-etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw
-etc/firmware/a330_pfp.fw
-etc/firmware/a330_pm4.fw
-etc/firmware/a420_pfp.fw
-etc/firmware/a420_pm4.fw
-etc/firmware/a506_zap.b00
-etc/firmware/a506_zap.b01
-etc/firmware/a506_zap.b02
-etc/firmware/a506_zap.elf
-etc/firmware/a506_zap.mdt
-etc/firmware/a530_gpmu.fw2
-etc/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw
-etc/firmware/a530v1_pfp.fw
-etc/firmware/a530v1_pm4.fw
-etc/firmware/a530v2_seq.fw2
-etc/firmware/a530v3_gpmu.fw2
-etc/firmware/a530v3_seq.fw2
-etc/firmware/a540_gpmu.fw2
+etc/firmware/a225p5_pm4.fw:vendor/etc/firmware/a225p5_pm4.fw
+etc/firmware/a225_pfp.fw:vendor/etc/firmware/a225_pfp.fw
+etc/firmware/a225_pm4.fw:vendor/etc/firmware/a225_pm4.fw
+etc/firmware/a300_pfp.fw:vendor/etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw:vendor/etc/firmware/a300_pm4.fw
+etc/firmware/a330_pfp.fw:vendor/etc/firmware/a330_pfp.fw
+etc/firmware/a330_pm4.fw:vendor/etc/firmware/a330_pm4.fw
+etc/firmware/a420_pfp.fw:vendor/etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw:vendor/etc/firmware/a420_pm4.fw
+etc/firmware/a506_zap.b00:vendor/etc/firmware/a506_zap.b00
+etc/firmware/a506_zap.b01:vendor/etc/firmware/a506_zap.b01
+etc/firmware/a506_zap.b02:vendor/etc/firmware/a506_zap.b02
+etc/firmware/a506_zap.elf:vendor/etc/firmware/a506_zap.elf
+etc/firmware/a506_zap.mdt:vendor/etc/firmware/a506_zap.mdt
+etc/firmware/a530_gpmu.fw2:vendor/etc/firmware/a530_gpmu.fw2
+etc/firmware/a530_pfp.fw:vendor/etc/firmware/a530_pfp.fw
+etc/firmware/a530_pm4.fw:vendor/etc/firmware/a530_pm4.fw
+etc/firmware/a530v1_pfp.fw:vendor/etc/firmware/a530v1_pfp.fw
+etc/firmware/a530v1_pm4.fw:vendor/etc/firmware/a530v1_pm4.fw
+etc/firmware/a530v2_seq.fw2:vendor/etc/firmware/a530v2_seq.fw2
+etc/firmware/a530v3_gpmu.fw2:vendor/etc/firmware/a530v3_gpmu.fw2
+etc/firmware/a530v3_seq.fw2:vendor/etc/firmware/a530v3_seq.fw2
+etc/firmware/a540_gpmu.fw2:vendor/etc/firmware/a540_gpmu.fw2
 
 # Hbtp
 vendor/bin/hbtp_daemon
@@ -367,26 +335,26 @@ vendor/lib64/libhbtpfrmwk.so
 vendor/lib64/libhbtpclient.so
 
 # Hbtp firmware
-etc/firmware/hbtp/hbtpcfg.dat
-etc/firmware/hbtp/qtc800s_dsp.bin
+etc/firmware/hbtp/hbtpcfg.dat:vendor/etc/firmware/hbtp/hbtpcfg.dat
+etc/firmware/hbtp/qtc800s_dsp.bin:vendor/etc/firmware/hbtp/qtc800s_dsp.bin
 
 # NFC
 vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd
-etc/libnfc-brcm.conf
-etc/nfc_wallet.conf
-etc/nfcee_access.xml
-etc/nfcse.cfg
-lib64/hw/nfc_nci.bcm2079x.default.so
+etc/libnfc-brcm.conf:vendor/etc/libnfc-brcm.conf
+etc/nfc_wallet.conf:vendor/etc/nfc_wallet.conf
+etc/nfcee_access.xml:vendor/etc/nfcee_access.xml
+etc/nfcse.cfg:vendor/etc/nfcse.cfg
+lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so
 
 # TAS
 lib/libTAS2555ftc.so
 lib64/libTAS2555ftc.so
 
 # USB
-etc/firmware/ice40.bin
+etc/firmware/ice40.bin:vendor/etc/firmware/ice40.bin
 
 # WiFi
-etc/wifi/WCNSS_qcom_cfg.ini
-etc/wifi/fstman.ini
-etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin
-etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat
+etc/wifi/WCNSS_qcom_cfg.ini:vendor/etc/wifi/WCNSS_qcom_cfg.ini
+etc/wifi/fstman.ini:vendor/etc/wifi/fstman.ini
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin:vendor/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_lenovo.bin
+etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat:vendor/etc/firmware/wlan/prima/WCNSS_wlan_dictionary_lenovo.dat

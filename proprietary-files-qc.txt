@@ -1,5 +1,5 @@
 # ADSP
-bin/adsprpcd
+bin/adsprpcd:vendor/bin/adsprpcd
 vendor/lib/libadsprpc.so
 vendor/lib/libadsp_default_listener.so
 vendor/lib/libmdsprpc.so
@@ -58,10 +58,10 @@ vendor/lib64/libFlacSwDec.so
 vendor/lib64/libacdbmapper.so
 vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudiodevarb.so
-etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
-etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
-etc/drc/drc_cfg_5.1.txt
-etc/drc/drc_cfg_AZ.txt
+etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
+etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
+etc/drc/drc_cfg_5.1.txt:vendor/etc/drc/drc_cfg_5.1.txt
+etc/drc/drc_cfg_AZ.txt:vendor/etc/drc/drc_cfg_AZ.txt
 
 # Bluetooth
 bin/btnvtool:vendor/bin/btnvtool
@@ -69,19 +69,19 @@ bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 bin/wcnss_filter:vendor/bin/wcnss_filter
 
 # Bluetooth firmware
-etc/firmware/nvm_tlv_1.3.bin
-etc/firmware/nvm_tlv_2.1.bin
-etc/firmware/nvm_tlv_3.0.bin
-etc/firmware/nvm_tlv_3.2.bin
-etc/firmware/nvm_tlv.bin
-etc/firmware/rampatch_tlv_1.3.tlv
-etc/firmware/rampatch_tlv_2.1.tlv
-etc/firmware/rampatch_tlv_3.0.tlv
-etc/firmware/rampatch_tlv_3.2.tlv
-etc/firmware/rampatch_tlv.img
+etc/firmware/nvm_tlv_1.3.bin:vendor/etc/firmware/nvm_tlv_1.3.bin
+etc/firmware/nvm_tlv_2.1.bin:vendor/etc/firmware/nvm_tlv_2.1.bin
+etc/firmware/nvm_tlv_3.0.bin:vendor/etc/firmware/nvm_tlv_3.0.bin
+etc/firmware/nvm_tlv_3.2.bin:vendor/etc/firmware/nvm_tlv_3.2.bin
+etc/firmware/nvm_tlv.bin:vendor/etc/firmware/nvm_tlv.bin
+etc/firmware/rampatch_tlv_1.3.tlv:vendor/etc/firmware/rampatch_tlv_1.3.tlv
+etc/firmware/rampatch_tlv_2.1.tlv:vendor/etc/firmware/rampatch_tlv_2.1.tlv
+etc/firmware/rampatch_tlv_3.0.tlv:vendor/etc/firmware/rampatch_tlv_3.0.tlv
+etc/firmware/rampatch_tlv_3.2.tlv:vendor/etc/firmware/rampatch_tlv_3.2.tlv
+etc/firmware/rampatch_tlv.img:vendor/etc/firmware/rampatch_tlv.img
 
 # Charger
-bin/hvdcp_opti
+bin/hvdcp_opti:vendor/bin/hvdcp_opti
 
 # CNE - from tissot - OPR1.170623.026
 etc/cne/andsfCne.xml|f81a69eac5dd16bbb195a0fcf1211a51cc014553
@@ -355,11 +355,11 @@ vendor/lib/hw/keystore.msm8953.so
 vendor/lib64/hw/keystore.msm8953.so
 
 # Media
-lib/libOmxVpp.so
-lib/libstagefright_soft_flacdec.so
-lib/libvpplibrary.so
-lib64/libstagefright_soft_flacdec.so
-lib64/libvpplibrary.so
+lib/libOmxVpp.so:vendor/lib/libOmxVpp.so
+lib/libstagefright_soft_flacdec.so:vendor/lib/libstagefright_soft_flacdec.so
+lib/libvpplibrary.so:vendor/ib/libvpplibrary.so
+lib64/libstagefright_soft_flacdec.so:vendor/lib64/libstagefright_soft_flacdec.so
+lib64/libvpplibrary.so:vendor/lib64/libvpplibrary.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
@@ -479,7 +479,6 @@ vendor/lib64/libqmiservices.so|911cc82311f16570c8b511949493bf4a046b55c3
 vendor/lib64/libsmemlog.so|512653d3d9563fda55acb84d76006c298eb78ba2
 etc/firmware/leia_pfp_470.fw
 etc/firmware/leia_pm4_470.fw
-etc/firmware/tas2555_uCDSP.bin
 
 # RIL - from tissot - OPR1.170623.026
 -app/SimSettings/SimSettings.apk|bbaa9e20d51d054af178ada318a164c15d22f8b1
@@ -577,7 +576,7 @@ vendor/lib64/libscveTextReco_stub.so
 
 # Sensorhub
 bin/sensors.qcom:vendor/bin/sensors.qcom
-lib/hw/sensors.msm8953.so
+lib/hw/sensors.msm8953.so:vendor/lib/hw/sensors.msm8953.so
 vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/sensors.alsps.so
 vendor/lib/sensors.st.so
@@ -587,7 +586,7 @@ vendor/lib/libsensor_reg.so
 vendor/lib/libmag_akm.so
 vendor/lib/lib_acgdaemon.so
 vendor/lib/sensor_calibrate.so
-lib64/hw/sensors.msm8953.so
+lib64/hw/sensors.msm8953.so:vendor/lib64/hw/sensors.msm8953.so
 vendor/lib64/hw/activity_recognition.msm8953.so
 vendor/lib64/sensors.alsps.so
 vendor/lib64/sensors.st.so
