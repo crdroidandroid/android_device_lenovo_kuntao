@@ -1265,16 +1265,6 @@ service config_bt_addr /vendor/bin/btnvtool -O
     group bluetooth radio
     oneshot
 
-service hciattach /system/bin/sh /system/etc/init.qcom.bt.sh
-    class late_start
-    user bluetooth
-    group bluetooth net_bt_admin
-    disabled
-    oneshot
-
-on property:bluetooth.hciattach=true
-    start hciattach
-
 # FM
 on property:hw.fm.init=0
       write /sys/module/radio_iris_transport/parameters/fmsmd_set 0
@@ -1343,13 +1333,6 @@ service smart_charger /vendor/bin/smart_charger
     seclabel u:r:smart_charger:s0
 
 #lenovo-sw weiweij added for smart_charger fast charger switch dameon end
-
-#lenovo-sw wengjun,2016-2-26,add touch boot script begin
-service mmi-touch-sh /vendor/bin/init.mmi.touch.sh
-    class core
-    user root
-    oneshot
-#lenovo-sw wengjun,2016-2-26,touch boot script end
 
 service ppd /vendor/bin/mm-pp-dpps
     class late_start

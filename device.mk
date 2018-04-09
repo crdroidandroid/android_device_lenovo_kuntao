@@ -302,9 +302,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.mmi.touch.sh \
     init.mmi.usb.sh \
-    init.qcom.bt.sh \
     init.class_main.sh
 
 PRODUCT_PACKAGES += \
