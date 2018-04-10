@@ -131,6 +131,9 @@ NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 VSYNC_EVENT_PHASE_OFFSET_NS := 2000000
 
+# Hidl manifests
+DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
+
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat
 
