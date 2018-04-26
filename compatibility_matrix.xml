@@ -27,6 +27,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 <compatibility-matrix version="1.0" type="device">
     <hal format="hidl" optional="false">
+        <name>android.frameworks.displayservice</name>
+        <version>1.0</version>
+        <interface>
+            <name>IDisplayService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
         <name>android.frameworks.schedulerservice</name>
         <version>1.0</version>
         <interface>
@@ -43,6 +51,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="false">
+        <name>android.hardware.graphics.composer</name>
+        <version>2.1</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>vr</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
         <name>android.hidl.allocator</name>
         <version>1.0</version>
         <interface>
@@ -52,7 +68,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="false">
         <name>android.hidl.manager</name>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IServiceManager</name>
             <instance>default</instance>
@@ -75,6 +91,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl" optional="false">
+        <name>android.system.net.netd</name>
+        <version>1.0</version>
+        <interface>
+            <name>INetd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
         <name>android.system.wifi.keystore</name>
         <version>1.0</version>
         <interface>
@@ -82,6 +106,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-
+    <hal format="native" optional="false">
+        <name>netutils-wrapper</name>
+        <version>1.0</version>
+    </hal>
 </compatibility-matrix>
-
