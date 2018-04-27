@@ -72,9 +72,12 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
+    android.hardware.audio@2.0-service \
     android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.effect@2.0-service \
     android.hardware.broadcastradio@1.0-impl \
-    android.hardware.soundtrigger@2.0-impl
+    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.0-service \
 
 PRODUCT_COPY_FILES += \
    frameworks/av/services/audiopolicy/config/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
@@ -111,8 +114,10 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
     copybit.msm8953 \
@@ -335,6 +340,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl \
+    android.hardware.thermal@1.0-service
 
 # Vibrator
 PRODUCT_PACKAGES += \
