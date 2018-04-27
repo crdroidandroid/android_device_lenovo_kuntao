@@ -194,7 +194,8 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/board_properties/tpd_suspend_status"
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Properties
-TARGET_SYSTEM_PROP += device/lenovo/kuntao/system.prop
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+TARGET_VENDOR_PROP += device/lenovo/kuntao/vendor.prop
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
