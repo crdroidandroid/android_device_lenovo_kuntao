@@ -291,14 +291,9 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-service-qti
-
 # Power HAL
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-impl \
-    power.msm8953
+    android.hardware.power@1.0-service-qti
 
 # IRSC
 PRODUCT_COPY_FILES += \
