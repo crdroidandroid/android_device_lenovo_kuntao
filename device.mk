@@ -64,7 +64,8 @@ PRODUCT_PACKAGES += \
     audio_amplifier.msm8953 \
     audio.usb.default \
     audio.r_submix.default \
-    libaudio-resampler
+    libaudio-resampler \
+    tinymix
 
 PRODUCT_PACKAGES += \
     libqcomvisualizer \
