@@ -1,67 +1,53 @@
 # ADSP
-bin/adsprpcd:vendor/bin/adsprpcd
-vendor/lib/libadsprpc.so
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libfastcvadsp_stub.so
-vendor/lib/libfastcvopt.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libfastcvadsp_stub.so
-vendor/lib64/libfastcvopt.so
+vendor/bin/adsprpcd|35b15f3197e193f742cef0c9f51bbfba9f7e27ad
+vendor/lib/libadsprpc.so|903160c2bf36fd3155720048c3ae2ab5e7fea7b4
+vendor/lib/libadsp_default_listener.so|3b56c2d00bef6585b8de11ba5afbec3772456d2d
+vendor/lib/libmdsprpc.so|c1bf9d1c2dee28c6fdee999acb9b72859d28416b
+vendor/lib/libfastcvadsp_stub.so|6197157dec6a29931f3af47b1ade006a295d05f5
+vendor/lib/libfastcvopt.so|1eae508500eb3e8bb3e97617a196d054d9d4f11c
+vendor/lib64/libadsprpc.so|88a4f07391e70f9b83a0aae90d087afbe64ecfa5
+vendor/lib64/libadsp_default_listener.so|7ae782755ddc945edb22ae11e964e0118a3b01a9
+vendor/lib64/libmdsprpc.so|21d2e79900608d7dc7b3d3c12e405fc576c3ff0c
+vendor/lib64/libfastcvadsp_stub.so|3d175f68145aa59aecd8457d608df15a5156897e
+vendor/lib64/libfastcvopt.so|5c0c7331eb2836ed1791cdefaef20cb66df02cb5
 
 # ADSP modules
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
+vendor/lib/rfsa/adsp/libexternal_dog_skel.so|02b69c54437fb5a6f7ad88c3f58e7c4adfea9ede
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
-vendor/lib/rfsa/adsp/libobjectMattingApp_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveCleverCapture_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libscveTextReco_skel.so
 
 # Audio
-vendor/lib/libadpcmdec.so
-vendor/lib/libsmwrapper.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/libacdb-fts.so
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
-vendor/lib/libhwdaphal.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libacdbloader.so
-vendor/lib/libFlacSwDec.so
-vendor/lib/libacdbmapper.so
-vendor/lib/libadm.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudiodevarb.so
-vendor/lib/libdrc.so
-vendor/lib/libqct_resampler.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libhwdaphal.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libFlacSwDec.so
-vendor/lib64/libacdbmapper.so
-vendor/lib64/libaudioalsa.so
-vendor/lib64/libaudiodevarb.so
-etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
-etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
-etc/drc/drc_cfg_5.1.txt:vendor/etc/drc/drc_cfg_5.1.txt
-etc/drc/drc_cfg_AZ.txt:vendor/etc/drc/drc_cfg_AZ.txt
+vendor/lib/libadpcmdec.so|ecf004c29b8ff2d9ee6f8c4ec473a56608140b7c
+vendor/lib/libsmwrapper.so|d7663a81dcc9f52eeb51ef1e15203e40ff9fcb15
+vendor/lib/soundfx/libqcbassboost.so|cf029cdd42aa2439c7cda0d0c2acfc8de6ef732d
+vendor/lib/soundfx/libqcreverb.so|bd74bc0d62d835dcf3cd90521a532d27259541df
+vendor/lib/soundfx/libqcvirt.so|43cf84b66ccee38ae21910e502aa8c72731ff475
+vendor/lib/libacdb-fts.so|432041db714bfaafb4dd12ff5dadf832fe322785
+vendor/lib/libadiertac.so|cd008e30ad53d375d56c843c02e10717198ac4bf
+vendor/lib/libaudcal.so|17c572176aaa38dcc1989dc6f8e6d554856e8bdb
+vendor/lib/libacdbrtac.so|8186bce33a5fbf79a11163c29b1669e85f9f1f84
+vendor/lib/libacdbloader.so|9c6ebfaf00e7dddf9e5f156dd6aaf0d616ad683e
+vendor/lib/libadm.so|5a02d7fd358eb488460ddb323990091e41e0822e
+vendor/lib/libaudioalsa.so|a0170e763a7875f06de42ee90b887be6a9bb192a
+vendor/lib/libdrc.so|18e0a5d56812560300d20824ff2c5af8e479b4f4
+vendor/lib/libqtigef.so|50f3a6fa607a9e4a525d05a4852aaf091c79d2ac
+vendor/lib/libsurround_3mic_proc.so|6763edeb5794f44396a7cb7a26a6bef751ddd671
+vendor/lib64/soundfx/libqcbassboost.so|280663da3238288914ecd028ce324fc98d084d8c
+vendor/lib64/soundfx/libqcreverb.so|cbbcba339a8ad9d769bf1c89cff3c2c1a5772563
+vendor/lib64/soundfx/libqcvirt.so|6d8720c7adc40c888509cd0c1e8942fcde161059
+vendor/lib64/libacdb-fts.so|f7ff3f4d87c2791a11eee69e328a1beb33256299
+vendor/lib64/libadiertac.so|b145d356dd4eeed3243f394ea53b3f7b8e3e2bd7
+vendor/lib64/libaudcal.so|b14a42b8eb0fc8ec8f24c1375c622f9cbad60dbc
+vendor/lib64/libacdbrtac.so|e351b36a4f14dc6b6626e6dca2bfc0915e68ccc2
+vendor/lib64/libacdbloader.so|0beeac377de2d275cf94e86d30a99163d9e8b527
+vendor/lib64/libaudioalsa.so|e0c80f38802cfd6cc74352a108040ff5f165614b
+vendor/lib64/libqtigef.so|63a415a14489f2a45315038a45f8e0f4fe7efa2c
 
 # Bluetooth
 bin/btnvtool:vendor/bin/btnvtool
@@ -121,7 +107,7 @@ vendor/lib/libcne.so|e3f46f8093070bb0869ef37c447232f82ca97687
 vendor/lib/libcneapiclient.so|a160d54df9a8d8bf3a1c9132923a91f2819ec6ed
 vendor/lib/libcneoplookup.so|5d92b6b69c32576c5d6e0d57a633316f03a3ced7
 vendor/lib/libcneqmiutils.so|957ff68e2a9596b6d606eab1c3608f3370d1a5f8
-vendor/lib/libwqe.so|4dd9545005e5db15efa8d7afe54d8c3e464e0d4f
+vendor/lib/libwqe.so|2f40c6a7e53a790baea4b8a5ace24f779513e382
 vendor/lib/libxml.so|29d4d88136cb3435039ba5f3df883d28829d74f0
 vendor/lib64/com.quicinc.cne.api@1.0.so|e6282133809e20e63fe202f4991280d334ef89d6
 vendor/lib64/com.quicinc.cne.constants@1.0.so|29b07291f69707cbb38e212a8461e5d1413e912a
@@ -477,8 +463,8 @@ vendor/lib64/libqmi_encdec.so|d1529781c74bbffbe1167f86a033c7e38d474a5e
 vendor/lib64/libqmi.so|8ef0d8398863b95e5b1e1a93ae2c70dddd314054
 vendor/lib64/libqmiservices.so|911cc82311f16570c8b511949493bf4a046b55c3
 vendor/lib64/libsmemlog.so|512653d3d9563fda55acb84d76006c298eb78ba2
-etc/firmware/leia_pfp_470.fw
-etc/firmware/leia_pm4_470.fw
+etc/firmware/leia_pfp_470.fw|46a8ce821d218359ff7e846db5dcc15b31bdd5ca
+etc/firmware/leia_pm4_470.fw|99364b0afd94e496ccc833ca0424dd6853b971d5
 
 # RIL - from tissot - OPR1.170623.026
 -app/SimSettings/SimSettings.apk|bbaa9e20d51d054af178ada318a164c15d22f8b1
