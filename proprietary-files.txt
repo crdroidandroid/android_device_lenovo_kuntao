@@ -338,10 +338,6 @@ etc/nfcee_access.xml:vendor/etc/nfcee_access.xml
 etc/nfcse.cfg:vendor/etc/nfcse.cfg
 lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so
 
-# TAS
-lib/libTAS2555ftc.so
-lib64/libTAS2555ftc.so
-
 # USB
 etc/firmware/ice40.bin:vendor/etc/firmware/ice40.bin
 
