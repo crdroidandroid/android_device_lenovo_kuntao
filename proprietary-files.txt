@@ -45,7 +45,7 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera_isp_ihist_stats44.so
 vendor/lib/libmmcamera_trueportrait_lib.so
-vendor/lib/libmmcamera_imx258.so
+vendor/lib/libmmcamera_imx258.so|2c11802dac9ef611fece6fe4dc3c533f4949f276
 vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_oflim_L5695F40_kuntaosy_eeprom.so
