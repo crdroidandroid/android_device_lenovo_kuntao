@@ -339,9 +339,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# USB HAL
+# USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+    android.hardware.usb@1.0-service.basic
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -365,7 +365,7 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
-# VNDK-SP:
+# VNDK:
 PRODUCT_PACKAGES += \
     vndk-sp
 
