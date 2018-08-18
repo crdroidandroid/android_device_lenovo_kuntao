@@ -338,6 +338,22 @@ etc/nfcee_access.xml:vendor/etc/nfcee_access.xml
 etc/nfcse.cfg:vendor/etc/nfcse.cfg
 lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so|3c5bffba4519ebf1eac8a8b4e04d3a70ab38494a
 
+# Sensorhub
+vendor/lib/hw/activity_recognition.msm8953.so
+vendor/lib/lib_acgdaemon.so
+vendor/lib/libmag_akm.so
+vendor/lib/libsensor1.so
+vendor/lib/libsensor_reg.so
+vendor/lib/sensors.alsps.so
+vendor/lib/sensors.st.so
+vendor/lib64/hw/activity_recognition.msm8953.so
+vendor/lib64/lib_acgdaemon.so
+vendor/lib64/libmag_akm.so
+vendor/lib64/libsensor1.so
+vendor/lib64/libsensor_reg.so
+vendor/lib64/sensors.alsps.so
+vendor/lib64/sensors.st.so
+
 # USB
 etc/firmware/ice40.bin:vendor/etc/firmware/ice40.bin
 

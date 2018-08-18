@@ -560,29 +560,6 @@ vendor/lib64/libscveTextReco.so
 vendor/lib64/libscveTextRecoPostProcessing.so
 vendor/lib64/libscveTextReco_stub.so
 
-# Sensorhub
-bin/sensors.qcom:vendor/bin/sensors.qcom
-lib/hw/sensors.msm8953.so:vendor/lib/hw/sensors.msm8953.so
-vendor/lib/hw/activity_recognition.msm8953.so
-vendor/lib/sensors.alsps.so
-vendor/lib/sensors.st.so
-vendor/lib/sensors.ssc.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libmag_akm.so
-vendor/lib/lib_acgdaemon.so
-vendor/lib/sensor_calibrate.so
-lib64/hw/sensors.msm8953.so:vendor/lib64/hw/sensors.msm8953.so
-vendor/lib64/hw/activity_recognition.msm8953.so
-vendor/lib64/sensors.alsps.so
-vendor/lib64/sensors.st.so
-vendor/lib64/sensors.ssc.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libmag_akm.so
-vendor/lib64/lib_acgdaemon.so
-vendor/lib64/sensor_calibrate.so
-
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
