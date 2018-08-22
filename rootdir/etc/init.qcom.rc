@@ -1314,12 +1314,6 @@ service wcnss-service /vendor/bin/wcnss_service
     group system wifi radio
     oneshot
 
-service hbtp /vendor/bin/hbtp_daemon
-    class main
-    user system
-    group system
-    disabled
-
 #lenovo-sw weiweij added for smart_charger fast charger switch dameon
 service smart_charger /vendor/bin/smart_charger
     class  main

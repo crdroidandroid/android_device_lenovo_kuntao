@@ -238,7 +238,7 @@ vendor/lib/libchromatix_imx258_kuntaoof_preview.so
 vendor/lib/libchromatix_imx258_kuntaoof_video_4k.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_5_0.fw:vendor/etc/firmware/cpp_firmware_v1_5_0.fw
+etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
 
 # EMMC
 etc/firmware/emmc_ffu_15_RX14MB.fw:vendor/etc/firmware/emmc_ffu_15_RX14MB.fw
@@ -287,24 +287,6 @@ etc/firmware/a506_zap.elf:vendor/firmware/a506_zap.elf
 etc/firmware/a506_zap.mdt:vendor/firmware/a506_zap.mdt
 etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
-
-# Hbtp
-vendor/bin/hbtp_daemon
-vendor/lib/libbtnv.so
-vendor/lib64/libbtnv.so
-vendor/bin/hbtp_daemon
-vendor/lib/libhbtpdsp.so
-vendor/lib/libhbtpjni.so
-vendor/lib/libhbtpfrmwk.so
-vendor/lib/libhbtpclient.so
-vendor/lib64/libhbtpdsp.so
-vendor/lib64/libhbtpjni.so
-vendor/lib64/libhbtpfrmwk.so
-vendor/lib64/libhbtpclient.so
-
-# Hbtp firmware
-etc/firmware/hbtp/hbtpcfg.dat:vendor/etc/firmware/hbtp/hbtpcfg.dat
-etc/firmware/hbtp/qtc800s_dsp.bin:vendor/etc/firmware/hbtp/qtc800s_dsp.bin
 
 # NFC
 vendor/firmware/BCM20797B0_002.001.043.0005.0010_Generic_NCD_Unsigned_configdata.ncd
