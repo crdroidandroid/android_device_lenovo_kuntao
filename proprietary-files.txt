@@ -238,15 +238,7 @@ vendor/lib/libchromatix_imx258_kuntaoof_preview.so
 vendor/lib/libchromatix_imx258_kuntaoof_video_4k.so
 
 # Camera firmware
-etc/firmware/cpp_firmware_v1_5_2.fw:vendor/etc/firmware/cpp_firmware_v1_5_2.fw
-etc/firmware/cpp_firmware_v1_6_0.fw:vendor/etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_5_0.fw:vendor/etc/firmware/cpp_firmware_v1_5_0.fw
-etc/firmware/cpp_firmware_v1_1_1.fw:vendor/etc/firmware/cpp_firmware_v1_1_1.fw
-etc/firmware/cpp_firmware_v1_8_0.fw:vendor/etc/firmware/cpp_firmware_v1_8_0.fw
-etc/firmware/cpp_firmware_v1_10_0.fw:vendor/etc/firmware/cpp_firmware_v1_10_0.fw
-etc/firmware/cpp_firmware_v1_1_6.fw:vendor/etc/firmware/cpp_firmware_v1_1_6.fw
-etc/firmware/cpp_firmware_v1_2_0.fw:vendor/etc/firmware/cpp_firmware_v1_2_0.fw
-etc/firmware/cpp_firmware_v1_4_0.fw:vendor/etc/firmware/cpp_firmware_v1_4_0.fw
 
 # EMMC
 etc/firmware/emmc_ffu_15_RX14MB.fw:vendor/etc/firmware/emmc_ffu_15_RX14MB.fw
@@ -288,29 +280,13 @@ etc/firmware/synaptics-s3508sga-16081202-kuntao.tdat:vendor/etc/firmware/synapti
 etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat:vendor/etc/firmware/synaptics-s3508sga-16082202-kuntao.tdat
 
 # Graphics firmware
-etc/firmware/a225p5_pm4.fw:vendor/etc/firmware/a225p5_pm4.fw
-etc/firmware/a225_pfp.fw:vendor/etc/firmware/a225_pfp.fw
-etc/firmware/a225_pm4.fw:vendor/etc/firmware/a225_pm4.fw
-etc/firmware/a300_pfp.fw:vendor/etc/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw:vendor/etc/firmware/a300_pm4.fw
-etc/firmware/a330_pfp.fw:vendor/etc/firmware/a330_pfp.fw
-etc/firmware/a330_pm4.fw:vendor/etc/firmware/a330_pm4.fw
-etc/firmware/a420_pfp.fw:vendor/etc/firmware/a420_pfp.fw
-etc/firmware/a420_pm4.fw:vendor/etc/firmware/a420_pm4.fw
-etc/firmware/a506_zap.b00:vendor/etc/firmware/a506_zap.b00
-etc/firmware/a506_zap.b01:vendor/etc/firmware/a506_zap.b01
-etc/firmware/a506_zap.b02:vendor/etc/firmware/a506_zap.b02
-etc/firmware/a506_zap.elf:vendor/etc/firmware/a506_zap.elf
-etc/firmware/a506_zap.mdt:vendor/etc/firmware/a506_zap.mdt
-etc/firmware/a530_gpmu.fw2:vendor/etc/firmware/a530_gpmu.fw2
-etc/firmware/a530_pfp.fw:vendor/etc/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw:vendor/etc/firmware/a530_pm4.fw
-etc/firmware/a530v1_pfp.fw:vendor/etc/firmware/a530v1_pfp.fw
-etc/firmware/a530v1_pm4.fw:vendor/etc/firmware/a530v1_pm4.fw
-etc/firmware/a530v2_seq.fw2:vendor/etc/firmware/a530v2_seq.fw2
-etc/firmware/a530v3_gpmu.fw2:vendor/etc/firmware/a530v3_gpmu.fw2
-etc/firmware/a530v3_seq.fw2:vendor/etc/firmware/a530v3_seq.fw2
-etc/firmware/a540_gpmu.fw2:vendor/etc/firmware/a540_gpmu.fw2
+etc/firmware/a506_zap.b00:vendor/firmware/a506_zap.b00
+etc/firmware/a506_zap.b01:vendor/firmware/a506_zap.b01
+etc/firmware/a506_zap.b02:vendor/firmware/a506_zap.b02
+etc/firmware/a506_zap.elf:vendor/firmware/a506_zap.elf
+etc/firmware/a506_zap.mdt:vendor/firmware/a506_zap.mdt
+etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
+etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
 
 # Hbtp
 vendor/bin/hbtp_daemon
