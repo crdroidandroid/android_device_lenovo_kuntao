@@ -294,7 +294,7 @@ etc/libnfc-brcm.conf:vendor/etc/libnfc-brcm.conf
 etc/nfc_wallet.conf:vendor/etc/nfc_wallet.conf
 etc/nfcee_access.xml:vendor/etc/nfcee_access.xml
 etc/nfcse.cfg:vendor/etc/nfcse.cfg
-lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.default.so|3c5bffba4519ebf1eac8a8b4e04d3a70ab38494a
+lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.msm8953.so|3c5bffba4519ebf1eac8a8b4e04d3a70ab38494a
 
 # Sensorhub
 vendor/lib/hw/activity_recognition.msm8953.so
