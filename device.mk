@@ -339,6 +339,9 @@ PRODUCT_PACKAGES += \
 #PRODUCT_BOOT_JARS += \
 #    telephony-ext
 
+# Properties
+include $(LOCAL_PATH)/vendor_prop.mk
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic

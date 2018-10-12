@@ -191,7 +191,6 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-TARGET_VENDOR_PROP += device/lenovo/kuntao/vendor.prop
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
