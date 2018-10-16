@@ -78,3 +78,8 @@ start_copying_prebuilt_qcril_db()
 #
 start_copying_prebuilt_qcril_db
 echo 1 > /data/vendor/radio/db_check_done
+
+if [ -f /data/system/users/0/settings_global.xml ]; then
+    sed -i 's/"multi_sim_data_call" value="1"/"multi_sim_data_call" value="-1"/g' /data/system/users/0/settings_global.xml
+    restorecon /data/system/users/0/settings_global.xml
+fi
