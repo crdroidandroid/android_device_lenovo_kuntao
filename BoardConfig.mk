@@ -210,6 +210,9 @@ TARGET_RIL_VARIANT := caf
 #BOARD_SEPOLICY_DIRS += device/lenovo/kuntao/sepolicy
 #include device/qcom/sepolicy/sepolicy.mk
 
+# Vendor Security Patch Level
+VENDOR_SECURITY_PATCH := 2017-11-01
+
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
