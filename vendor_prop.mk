@@ -47,8 +47,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
-    ro.sf.lcd_density=480
-    vendor.display.disable_rotator_downscale=1
+    ro.sf.lcd_density=480 \
+    vendor.display.disable_rotator_downscale=1 \
+    sdm.debug.disable_skip_validate=1 \
+    sdm.perf_hint_window=50
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
