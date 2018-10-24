@@ -119,6 +119,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
     persist.data.mode=concurrent
 
+# Time Services
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.delta_time.enable=true \
+    persist.timed.enable=true
+
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
