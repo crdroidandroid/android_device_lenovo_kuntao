@@ -418,11 +418,11 @@ vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services
--app/TimeService/TimeService.apk|2b874af6b5ebf4d5ecfdc893a4731574bf02bb05
-bin/time_daemon:vendor/bin/time_daemon
--vendor/lib64/libtime_genoff.so
-vendor/lib64/libTimeService.so
+# Time services - from tissot 8.1.0 OPM1.171019.026
+-vendor/app/TimeService/TimeService.apk|c26ca23d0e67278d9e45b4dd6012cc36d7f67592
+vendor/bin/time_daemon|ddb7b3de71543b10cb262a7931cbfbf62ddadfea
+-vendor/lib/libtime_genoff.so|e0773fb8eb0342889ae74be034357f1e12077e69
+-vendor/lib64/libtime_genoff.so|7683a85cae9f17cd535e8960fceda1d6831074a0
 
 # Widevine DRM - from marlin - OPM1.171019.011
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine|fd6e14710c196fdd4131afe2ce10c4a5be1b309c
