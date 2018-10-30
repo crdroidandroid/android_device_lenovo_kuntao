@@ -1314,10 +1314,8 @@ service wcnss-service /vendor/bin/wcnss_service
 
 #lenovo-sw weiweij added for smart_charger fast charger switch dameon
 service smart_charger /vendor/bin/smart_charger
-    class  main
+    class main
     user root
-    seclabel u:r:smart_charger:s0
-
 #lenovo-sw weiweij added for smart_charger fast charger switch dameon end
 
 service ppd /vendor/bin/mm-pp-dpps
@@ -1448,7 +1446,6 @@ service ril-daemon2 /vendor/bin/hw/rild -c 2
 service charger /charger
     class charger
     group system graphics
-    seclabel u:r:charger:s0
 
 service qlogd /system/xbin/qlogd
     socket qlogd stream 0662 system system
