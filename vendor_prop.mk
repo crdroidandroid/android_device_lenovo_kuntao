@@ -23,7 +23,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.parser.ip.buffer.size=262144 \
     vendor.audio.playback.mch.downsample=true \
     vendor.audio.safx.pbe.enabled=true \
-    vendor.voice.path.for.pcm.voip=true
+    vendor.voice.path.for.pcm.voip=true \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7
 
 # Bluetooh
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -36,6 +38,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.lmax=1280x720 \
     vidc.enc.dcvs.extra-buff-count=2 \
     camera.lowpower.record.enable=1 \
+    persist.camera.HAL3.enabled=1 \
     persist.vendor.qti.telephony.vt_cam_interface=1
 
 # Cne
@@ -44,15 +47,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.fw.dex2oat_thread_count=4 \
-    dalvik.vm.boot-dex2oat-threads=8 \
-    dalvik.vm.dex2oat-threads=4 \
-    dalvik.vm.image-dex2oat-threads=4 \
-    dalvik.vm.dex2oat-filter=speed \
-    dalvik.vm.image-dex2oat-filter=speed \
-    dalvik.vm.heapgrowthlimit=256m \
     dalvik.vm.heapstartsize=8m \
-    dalvik.vm.heapsize=512m \
+    dalvik.vm.heapgrowthlimit=288m \
+    dalvik.vm.heapsize=768m \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=512k \
     dalvik.vm.heapmaxfree=8m
@@ -73,7 +70,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Factory reset protection
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.frp.pst=/dev/block/bootdevice/by-name/config
+    ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/config
 
 # Fp Gestures
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -86,8 +83,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Gps
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.gps.qc_nlp_in_use=1 \
-    persist.loc.nlp_name=com.qualcomm.location \
     ro.gps.agps_provider=1
 
 # Media
@@ -108,7 +103,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rild.nitz_long_ons_1="" \
     persist.rild.nitz_long_ons_2="" \
     persist.rild.nitz_long_ons_3="" \
-    persist.rild.nitz_short_ons_0""= \
+    persist.rild.nitz_short_ons_0="" \
     persist.rild.nitz_short_ons_1="" \
     persist.rild.nitz_short_ons_2="" \
     persist.rild.nitz_short_ons_3=""
@@ -119,7 +114,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.timed.enable=true \
     com.qc.hardware=true \
     debug.qc.hardware=true
 
@@ -129,17 +123,24 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.multisim.config=dsds \
     ro.telephony.default_network=9,1 \
-    ro.telephony.call_ring.multiple=false \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.data.netmgrd.qos.enable=true \
     persist.data.mode=concurrent
 
+# Fling velocities
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=160 \
+    ro.max.fling_velocity=20000
+
+# RescueParty
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.disable_rescue=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.delta_time.enable=true \
-    persist.timed.enable=true
+    persist.delta_time.enable=true
 
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
