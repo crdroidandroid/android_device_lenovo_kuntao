@@ -37,9 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.umax=1920x1080 \
     persist.vendor.camera.display.lmax=1280x720 \
     vidc.enc.dcvs.extra-buff-count=2 \
-    camera.lowpower.record.enable=1 \
-    persist.camera.HAL3.enabled=1 \
-    persist.vendor.qti.telephony.vt_cam_interface=1
+    camera.lowpower.record.enable=1
 
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -98,8 +96,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.disable.split.mode=1 \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.enc.disable_pframes=1 \
-    vendor.vidc.enc.narrow.searchrange=1 \
-    persist.media.treble_omx=false
+    vendor.vidc.enc.narrow.searchrange=1
 
 # NITZ
 PRODUCT_PROPERTY_OVERRIDES += \
