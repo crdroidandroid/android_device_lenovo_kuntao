@@ -335,8 +335,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
-#PRODUCT_BOOT_JARS += \
-#    telephony-ext
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
