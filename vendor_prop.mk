@@ -60,9 +60,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.vendor.display.cabl=0 \
     ro.sf.lcd_density=480 \
-    vendor.display.disable_rotator_downscale=1 \
-    sdm.debug.disable_skip_validate=1 \
-    sdm.perf_hint_window=50
+    vendor.display.disable_rotator_downscale=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
