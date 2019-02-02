@@ -20,8 +20,7 @@ include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES += $(call project-path-for,qcom-audio)/hal
 
-LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
-LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 
 LOCAL_MODULE := audio_amplifier.$(TARGET_BOARD_PLATFORM)
 LOCAL_MODULE_RELATIVE_PATH := hw
@@ -30,5 +29,6 @@ LOCAL_SHARED_LIBRARIES := liblog libcutils
 LOCAL_MODULE_TAGS := optional
 LOCAL_CFLAGS := -Wno-unused-parameter
 LOCAL_VENDOR_MODULE := true
+LOCAL_HEADER_LIBRARIES += libhardware_headers
 
 include $(BUILD_SHARED_LIBRARY)

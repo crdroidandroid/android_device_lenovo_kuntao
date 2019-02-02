@@ -10,7 +10,7 @@
 | Memory                  | 3/4GB RAM                             	  |
 | Shipped Android Version | Android 6.0.1 (Marshmallow)                   |
 | Storage                 | 32 GB                                 	  |
-| MicroSD                 | Up to 256GB                           	  |
+| MicroSD                 | Up to 128GB                           	  |
 | Battery                 | 5100 mAh                              	  |
 | Dimensions              | 153 x 76 x 8.3 mm                             |
 | Display                 | 1080 x 1920 pixels                            |
@@ -25,7 +25,7 @@
 
 ```
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

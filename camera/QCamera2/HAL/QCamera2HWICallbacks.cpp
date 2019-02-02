@@ -732,12 +732,8 @@ void QCamera2HardwareInterface::synchronous_stream_cb_routine(
     // Otherwise, mBootToMonoTimestampOffset value will be 0.
     frameTime = frameTime - pme->mBootToMonoTimestampOffset;
     // Calculate the future presentation time stamp for displaying frames at regular interval
-    // mPreviewTimestamp = pme->mCameraDisplay.computePresentationTimeStamp(frameTime);
+    //mPreviewTimestamp = pme->mCameraDisplay.computePresentationTimeStamp(frameTime);
     stream->mStreamTimestamp = frameTime;
-
-#ifdef TARGET_TS_MAKEUP
-    pme->TsMakeupProcess_Preview(frame,stream);
-#endif
 
     // Enqueue  buffer to gralloc.
     uint32_t idx = frame->buf_idx;
@@ -1563,9 +1559,13 @@ void QCamera2HardwareInterface::video_stream_cb_routine(mm_camera_super_buf_t *s
             cbArg.msg_type = CAMERA_MSG_VIDEO_FRAME;
             cbArg.data = video_mem;
 
-            // Convert Boottime from camera to Monotime for video if needed.
-            // Otherwise, mBootToMonoTimestampOffset value will be 0.
-            timeStamp = timeStamp - pme->mBootToMonoTimestampOffset;
+            // For VT usecase, ISP uses AVtimer not CLOCK_BOOTTIME as time source.
+            // So do not change video timestamp.
+            if (!pme->mParameters.isAVTimerEnabled()) {
+                // Convert Boottime from camera to Monotime for video if needed.
+                // Otherwise, mBootToMonoTimestampOffset value will be 0.
+                timeStamp = timeStamp - pme->mBootToMonoTimestampOffset;
+            }
             LOGD("Final video buffer TimeStamp : %lld ", timeStamp);
             cbArg.timestamp = timeStamp;
             int32_t rc = pme->m_cbNotifier.notifyCallback(cbArg);

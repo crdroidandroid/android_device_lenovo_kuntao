@@ -25,6 +25,9 @@
         <item>Comfort:astronomy</item>
     </string-array>
 
+    <!-- Default values for LiveDisplay -->
+    <integer name="config_defaultLiveDisplayMode">2</integer>
+
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 

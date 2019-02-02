@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="presets_entries">
+        <item>Varsayılan</item>
+        <item>Sürüm 1</item>
+        <item>Sürüm 2</item>
+        <item>Sürüm 3</item>
+        <item>Triluminous</item>
+        <item>Derin siyah ve beyaz</item>
+        <item>Derin doğal</item>
+        <item>Soğuk amoled</item>
+        <item>Aşırı amoled</item>
+        <item>Sıcak amoled</item>
+        <item>Hibrit mamba</item>
+    </string-array>
+    <string-array name="presets_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

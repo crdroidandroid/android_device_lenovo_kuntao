@@ -3591,7 +3591,6 @@ int32_t QCameraParameters::setSceneMode(const QCameraParameters& params)
                 // If HDR is set from client  and the feature is not enabled in the backend, ignore it.
                 if (m_bHDRModeSensor && isSupportedSensorHdrSize(params)) {
                     m_bSensorHDREnabled = true;
-                    m_bHDREnabled = false;
                     LOGH("Sensor HDR mode Enabled");
                 } else {
                     m_bHDREnabled = true;
@@ -4012,6 +4011,45 @@ int32_t QCameraParameters::setStillMore(const QCameraParameters& params)
     }
     return NO_ERROR;
 }
+
+#ifdef TARGET_TS_MAKEUP
+
+/*===========================================================================
+ * FUNCTION   : setTsMakeup
+ *
+ * DESCRIPTION: set setTsMakeup from user setting
+ *
+ * PARAMETERS :
+ *   @params  : user setting parameters
+ *
+ * RETURN     : int32_t type of status
+ *              NO_ERROR  -- success
+ *              none-zero failure code
+ *==========================================================================*/
+int32_t QCameraParameters::setTsMakeup(const QCameraParameters& params)
+{
+    const char *str = params.get(KEY_TS_MAKEUP);
+    const char *prev_str = get(KEY_TS_MAKEUP);
+    LOGH("str =%s & prev_str =%s", str, prev_str);
+    if (str != NULL) {
+        if (prev_str == NULL || strcmp(str, prev_str) != 0) {
+            m_bNeedRestart = true;
+            set(KEY_TS_MAKEUP, str);
+            const char *str1 = params.get(KEY_TS_MAKEUP_WHITEN);
+            if (str1 != NULL) {
+                set(KEY_TS_MAKEUP_WHITEN, str1);
+            }
+            const char *str2 = params.get(KEY_TS_MAKEUP_CLEAN);
+            if (str2 != NULL) {
+                set(KEY_TS_MAKEUP_CLEAN, str2);
+            }
+        }
+    }
+
+    return NO_ERROR;
+}
+
+#endif
 
 /*===========================================================================
  * FUNCTION   : setRedeyeReduction
@@ -5127,22 +5165,9 @@ int32_t QCameraParameters::updateParameters(const String8& p,
     setLowLightCapture();
 
     if ((rc = updateFlash(false)))                      final_rc = rc;
-
 #ifdef TARGET_TS_MAKEUP
-    if (params.get(KEY_TS_MAKEUP) != NULL) {
-        set(KEY_TS_MAKEUP,params.get(KEY_TS_MAKEUP));
-        final_rc = rc;
-    }
-    if (params.get(KEY_TS_MAKEUP_WHITEN) != NULL) {
-        set(KEY_TS_MAKEUP_WHITEN,params.get(KEY_TS_MAKEUP_WHITEN));
-        final_rc = rc;
-    }
-    if (params.get(KEY_TS_MAKEUP_CLEAN) != NULL) {
-        set(KEY_TS_MAKEUP_CLEAN,params.get(KEY_TS_MAKEUP_CLEAN));
-        final_rc = rc;
-    }
+    if ((rc = setTsMakeup(params)))                     final_rc = rc;
 #endif
-
     if ((rc = setAdvancedCaptureMode()))                final_rc = rc;
 UPDATE_PARAM_DONE:
     needRestart = m_bNeedRestart;
@@ -6124,9 +6149,6 @@ int32_t QCameraParameters::init(cam_capability_t *capabilities,
         mm_camera_vtbl_t *mmOps, QCameraAdjustFPS *adjustFPS)
 {
     int32_t rc = NO_ERROR;
-
-    // Set default sharpness to 1
-    capabilities->sharpness_ctrl.def_value = 6;
 
     m_pCapability = capabilities;
     m_pCamOpsTbl = mmOps;

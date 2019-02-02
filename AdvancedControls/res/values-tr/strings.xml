@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2014-2017 The OmniROM Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Gelişmiş kontroller</string>
+    <string name="advanced_settings">Gelişmiş kontroller</string>
+    <string name="category_vibrator">Titreşim</string>
+    <string name="vib_strength_title_head">Titreşim yoğunluğu</string>
+    <string name="vib_strength_summary_head">Titreşim yoğunluğunu ayarlayın</string>
+    <string name="category_torch">Fener</string>
+    <string name="yellow_torch_brightness_title_head">Sarı led maksimum parlaklık</string>
+    <string name="yellow_torch_brightness_summary_head">Sarı ledin maksimum parlaklığını ayarlayın</string>
+    <string name="white_torch_brightness_title_head">Beyaz led maksimum parlaklık</string>
+    <string name="white_torch_brightness_summary_head">Beyaz ledin maksimum parlaklığını ayarlayın</string>
+    <string name="category_screen_color">Ekran rengi</string>
+    <string name="rgb_red">Kırmızı</string>
+    <string name="rgb_blue">Mavi</string>
+    <string name="rgb_green">Yeşil</string>
+    <string name="category_kcal_extras">İnce ayar</string>
+    <string name="rgb_min">Minimum RGB değeri</string>
+    <string name="sat_intensity">Doygunluk yoğunluğu</string>
+    <string name="scr_hue">Ekran tonu</string>
+    <string name="scr_val">Ekran değeri</string>
+    <string name="scr_cont">Ekran kontrastı</string>
+    <string name="plus_one">+1</string>
+    <string name="minus_one">-1</string>
+    <string name="restore_default">Varsayılan</string>
+    <string name="restore_on_boot">Açılışta ayarları uygula</string>
+    <string name="category_kcal_presets">Kcal ön ayarı</string>
+    <string name="kcal_presets_title">Kcal ön ayar değerlerini kullan</string>
+    <string name="presets_list_title">Kcal ön ayar seçin</string>
+    <string name="slow_wakeup_fix_title">Hızlı uyandır</string>
+    <string name="slow_wakeup_fix_summary">Deneysel özellik, lütfen kendi sorumluluğunuzda kullanın</string>
+    <string name="category_sound">Ses</string>
+    <string name="category_misc">Çeşitli</string>
+    <string name="dirac_title">Dirac ayarları</string>
+    <string name="dirac_summary">Dirac yapılandırma seçeneklerini başlat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+</resources>

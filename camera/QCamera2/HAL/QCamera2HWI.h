@@ -384,7 +384,6 @@ private:
     QCameraExif *getExifData();
     cam_sensor_t getSensorType();
     bool isLowPowerMode();
-    nsecs_t getBootToMonoTimeOffset();
 
     int32_t processAutoFocusEvent(cam_auto_focus_data_t &focus_data);
     int32_t processZoomEvent(cam_crop_data_t &crop_info);
@@ -565,6 +564,7 @@ private:
     void setDisplayFrameSkip(uint32_t start = 0, uint32_t end = 0);
     /*Verifies if frameId is valid to skip*/
     bool isDisplayFrameToSkip(uint32_t frameId);
+    bool needSyncCB(cam_stream_type_t stream_type);
 
 private:
     camera_device_t   mCameraDevice;
@@ -627,6 +627,7 @@ private:
     pthread_t mLiveSnapshotThread;
     pthread_t mIntPicThread;
     bool mFlashNeeded;
+    bool mFlashConfigured;
     uint32_t mDeviceRotation;
     uint32_t mCaptureRotation;
     uint32_t mJpegExifRotation;
@@ -758,7 +759,7 @@ private:
 #endif
     QCameraMemory *mMetadataMem;
 
-    static uint32_t sNextJobId;
+    uint32_t mNextJobId;
 
     //Gralloc memory details
     pthread_mutex_t mGrallocLock;

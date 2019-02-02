@@ -35,7 +35,14 @@
         <value>171</value>
         <value>181</value>
     </array>
+    <array name="wifi.batchedscan">
+        <value>.0002</value>
+        <value>.002</value>
+        <value>.02</value>
+        <value>.2</value>
+        <value>2</value>
+    </array>
     <item name="cpu.awake">93</item>
     <item name="cpu.idle">4.23</item>
-    <item name="battery.capacity">5000</item>
+    <item name="battery.capacity">5100</item>
 </device>
