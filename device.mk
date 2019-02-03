@@ -1,4 +1,4 @@
-:#
+#
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.0-service
+    android.hardware.biometrics.fingerprint@2.0-service.kuntao
 
 # FM
 PRODUCT_PACKAGES += \
