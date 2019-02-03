@@ -7,7 +7,7 @@ vendor/lib/libfastcvopt.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libadsp_default_listener.so
 
-# Audio - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Audio - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -178,7 +178,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
-# Graphics - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Graphics - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -241,11 +241,11 @@ vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Graphics (HDR) - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Graphics (HDR) - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
-# Graphics (Postprocessing) - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Graphics (Postprocessing) - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 vendor/bin/mm-pp-dpps
@@ -262,7 +262,7 @@ vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Graphics (Vulkan) - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Graphics (Vulkan) - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/hw/vulkan.msm8953.so
 vendor/lib64/hw/vulkan.msm8953.so
 
@@ -272,7 +272,7 @@ vendor/bin/ipacm-diag
 # Keystore - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/lib64/hw/keystore.msm8953.so
 
-# Listen - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Listen - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/hw/sound_trigger.primary.msm8953.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
@@ -282,7 +282,7 @@ vendor/lib64/hw/sound_trigger.primary.msm8953.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/libmulawdec.so
 
-# Media - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Media - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libOmxAacDec.so
@@ -306,23 +306,38 @@ vendor/lib/libvqzip.so
 vendor/lib/libwms.so
 vendor/lib64/libwms.so
 
-# Perf - from Mi A1 tissot_sprout 9 PKQ1.180917.001.V10.0.2.0.PDHMIFK release-keys
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|3f4cf13499019e7e3747679220b280f4f204b8de
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
+# Perf - from  Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
+lib/vendor.qti.hardware.iop@1.0.so
+lib/vendor.qti.hardware.iop@2.0.so
+lib/vendor.qti.hardware.perf@1.0.so
+lib64/vendor.qti.hardware.iop@1.0.so
+lib64/vendor.qti.hardware.iop@2.0.so
+lib64/vendor.qti.hardware.perf@1.0.so
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
+vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/lib/libperfgluelayer.so|0cda8dd77f3c00b70ad50b7764adfb7869d3537e
-vendor/lib/libqti-perfd-client.so|a4a6da47ee26fcd5116c514f7fed15b91306aea3
-vendor/lib/libqti-perfd.so|2c8af66cbcb941b9da2edb68f428776cbbabdff6
-vendor/lib/libqti-util.so|459a7375feb57c2e11d012c5fb65befd94e91d06
-vendor/lib/vendor.qti.hardware.perf@1.0.so|39a81e7cc35f542e5e2eeed6f38152b44063928f
-vendor/lib64/libperfgluelayer.so|e8bc850cbb8d2c2b9ed8c6b9c48eb4b1fd197622
-vendor/lib64/libqti-perfd-client.so|d9fb126fb7aff2db61978f46f78e0284e95183be
-vendor/lib64/libqti-perfd.so|96806732f4e5f8c25ba2e12a3a939fc2889c7341
-vendor/lib64/libqti-util.so|30dc90c1636fd100a8e101dfa659e0b7299ff813
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib/libperfgluelayer.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
+vendor/lib/vendor.qti.hardware.iop@1.0.so
+vendor/lib/vendor.qti.hardware.iop@2.0.so
+vendor/lib/vendor.qti.hardware.perf@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libqti-iopd-client.so
+vendor/lib64/libqti-iopd.so
+vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-util.so
+vendor/lib64/vendor.qti.hardware.iop@1.0.so
+vendor/lib64/vendor.qti.hardware.iop@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@1.0.so
+vendor/lib/libqti-perfd-client.so
+vendor/lib64/libqti-perfd-client.so
 
 # Peripheral manager - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/pm-proxy
@@ -517,22 +532,39 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 
-# Thermal - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Thermal - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
 
-# Time services - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
+# Time services - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/lib64/libtime_genoff.so
 
+#QTI Performance libs - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
+-framework/QPerformance.jar
+-framework/UxPerformance.jar
+bin/perfservice
+etc/init/perfservice.rc
+etc/perf/whitelistedapps.xml
+lib/libqti-at.so
+lib/libqti-perfd-client_system.so
+lib/libqti-iopd-client_system.so
+lib/libqti-util_system.so
+lib/libqti_performance.so
+lib64/libqti-at.so
+lib64/libqti-perfd-client_system.so
+lib64/libqti-iopd-client_system.so
+lib64/libqti-util_system.so
+lib64/libqti_performance.so
+
 # Wi-Fi - from Tissot PKQ1.180917.001/V10.0.2.0.PDHMIFK
 vendor/bin/wcnss_service
 
-# Wi-Fi Display
+# Wi-Fi Display - from Redmi 6 Pro sakura 9 PKQ1.180917.001 9.1.25 release-keys
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfig.xml
@@ -545,6 +577,7 @@ lib64/libmmparser_lite.so
 lib64/libmmosal.so
 lib64/libwfdclient.so
 lib64/libwfdnative.so
+lib64/libwfdsm.so
 lib/extractors/libmmparser.so
 lib/libFileMux.so
 lib/libmmparser_lite.so
@@ -571,6 +604,7 @@ lib/libwfduibcsrcinterface.so
 vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
+vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so

@@ -114,7 +114,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so
+    ro.vendor.extension_library=libqti-perfd-client.so \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=1
 
 # Qualcomm
 PRODUCT_PROPERTY_OVERRIDES += \
