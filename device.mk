@@ -281,10 +281,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(LOCAL_PATH)/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
-# Spectrum
-PRODUCT_PACKAGES += \
-    Spectrum
-
 # Sensor
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
@@ -335,8 +331,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.mmi.usb.sh \
     move_widevine_data.sh \
-    init.spectrum.sh \
-    init.spectrum.rc \
     init.advandec.parts.rc \
     fstab.qcom \
     init.qcom.rc \
